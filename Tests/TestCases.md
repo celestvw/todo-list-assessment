@@ -18,7 +18,7 @@
 - THEN the item is deleted/removed from the list
 
 ### Test case no 4: ###
-#### Empty field validation ####
+#### Empty field ####
 - GIVEN the user has navigated to [URL]
 - WHEN the user clicks on the empty field on an existing item and enters a null value (leave the field blank) and clicks the 'update' button
 - THEN the existing value of the item should persist
@@ -31,15 +31,15 @@
 
 ### Test case no 6: ###
 #### Deployed in Docker ####
-- GIVEN some condition
-- WHEN some event
-- THEN some outcome
+- GIVEN the application is built with Docker - docker build -t qe-todolist .
+- WHEN the user deploys the application with Docker
+- THEN the user should access the application with the spesified configuration
 
 ### Test case no 7: ###
 #### Mobile Application ####
-- GIVEN some condition
-- WHEN some event
-- THEN some outcome
+- GIVEN the application is ported to Cordova
+- WHEN when a mobile emulation device is selected
+- THEN the user should be able to run the application on the selected mobile device
 
 ### Test case no 8: ###
 #### Multiple Users ####
