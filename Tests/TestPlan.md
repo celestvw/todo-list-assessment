@@ -45,7 +45,7 @@
 - UI - cosmetic enhancements
 
 ### Testing Types: ###
- - Unit, Functional, API, Regression, Load, Usability and Sanity testing
+ - Unit, Functional, API: Postman if Restful API, Regression, Load Testing: JMeter or NEOLoad, Usability and Smoke Tests
 
  ### Environments: ###
   - Development, Acceptance/Staging, Hosting, Production
