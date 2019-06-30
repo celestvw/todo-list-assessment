@@ -1,5 +1,22 @@
 # Test Plan - Application: To do List #
 ## Test Approach ##
+### System Under Test Set-up ###
+- Make sure Git (https://git-scm.com/) is installed
+- Install Node.js (https://nodejs.org/en/)
+- In the extracted project root folder, run `npm install`
+
+### Run the application in node.js
+- Run `node app.js` in the project root folder
+- Visit http://localhost:8080 in your browser
+
+### Run the application in docker
+- Install Docker: https://docs.docker.com/.
+- To build docker image: `docker build -t qe-todolist .`
+- To run docker image: `docker run -p 8081:8080 -d qe-todolist`
+- Navigate to `http://localhost:8081` to see the app running in docker.
+- To stop docker image: `docker ps` grab the Container ID corresponding with the 'qe-todolist' image then `docker stop ${ContainerID}` with `${ContainerID}` replaced with the actual value.
+
+
 #### In this test plan we discuss the overall approach of the project. ####
 - Agile methodology - 2 week sprints
 - BDD (behaviour driven development) Given, When, Then
