@@ -43,18 +43,12 @@
 
 ### Test case no 8: ###
 #### Multiple Users ####
-- GIVEN some condition
-- WHEN some event
-- THEN some outcome
+- GIVEN the QE to do list application's URL publically exposed
+- WHEN users navigate to the URL and add, edit or delete items from the list
+- THEN all existing functionalites is available to all users and updates on the application only occur on a page refresh
 
 ### Test case no 9: ###
-#### Error Handling ####
-- GIVEN some condition
-- WHEN some event
-- THEN some outcome
-
-### Test case no 10: ###
-#### System Stability ####
-- GIVEN some condition
-- WHEN some event
-- THEN some outcome
+#### Error Handling with Kubernetes ####
+- GIVEN the application is hosted on Kubernetes 
+- WHEN the amount of users exceeds the minimum amount spesified and the  service becomes overused
+- THEN the the application is able to heal itself and no down time will be experienced

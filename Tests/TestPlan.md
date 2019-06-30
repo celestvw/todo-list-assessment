@@ -41,7 +41,7 @@
 
 ### Out of Scope: ###
 - Penetration Testing
-- Functionality - Date at which items must be completed
+- Functionality - Date at which items must be completed, duplicate items.
 - UI - cosmetic enhancements
 
 ### Testing Types: ###
@@ -52,7 +52,7 @@
 
 ### Tools: ###
 - Hardware - PC, Mobile Device, OS - Android
-- Software - JIRA, Github, Docker, Kubernetes, Cordova, Cucumber js
+- Software - JIRA, Github, Docker, Kubernetes, Cordova, Selenium
 
 ### Responsibilities: ###
 1. Product Owner: Create all user stories for the project, define the acceptance criteria 
@@ -65,14 +65,8 @@
 - Test execution - 1 day (8 hours)
 
 ### Risks: ###
-- Application hosted on a cloud server - The risk is not having a SSL certificate in place is a security vulnerability.
+- Application hosted on a cloud server - The risk of not having a SSL certificate in place is a security vulnerability.
 - Mitigate Risk - Ensure a SSL certificate is in place on the hosted service before hosting the application on the site.
-
-### Test data requirements: ###
-- All test data must be gathered from the existing database of actions availabe:
-1. Add
-2. Edit
-3. Delete
 
 ### Exit Criteria: ###
 - The exit criteria for this application is when all functional requirements are met, all defects are resolved and the QA Analyst has signed off the tested software. The application is presented to the Product Owner and Stakeholders and business provides sign off for the project to be deployed to production, therefore providing a working application that can be consumed by the public.
