@@ -23,7 +23,7 @@
 - The test approach will focus on the front end of the apllication
 - Manual test execution
 - Defect tracking with the project management tool JIRA
-- Test Cases to be written in Markdown
+- Test cases to be written in Markdown
 
 ## Objective ##
 - The objective of this project is to enusre the delivery of the To Do List application as working software. This application must run as a web and mobile application.

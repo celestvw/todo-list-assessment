@@ -16,3 +16,4 @@
 - Create a pop up message for the user stating that the field cannot be left empty when updating items
 
 [Screenshot: Defect 1.PNG](https://github.com/celestvw/todo-list-assessment/blob/master/Tests/Defect%201.PNG)
+

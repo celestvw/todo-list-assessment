@@ -35,7 +35,7 @@
 - WHEN the user deploys the application with Docker
 - THEN the user should access the application with the spesified configuration
 
-### Test case no 8: ###
+### Test case no 7: ###
 #### Multiple Users ####
 - GIVEN the QE to do list application's URL publically exposed
 - WHEN users navigate to the URL and add, edit or delete items from the list
