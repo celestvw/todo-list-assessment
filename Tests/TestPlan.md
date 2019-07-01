@@ -22,9 +22,8 @@
 - BDD (behaviour driven development) Given, When, Then
 - The test approach will focus on the front end of the apllication
 - Manual test execution
-- Cordova - must run as a mobile application
-- Target audience - who will use this application
-- Defect tracking with JIRA
+- Defect tracking with the project management tool JIRA
+- Test Cases to be written in Markdown
 
 ## Objective ##
 - The objective of this project is to enusre the delivery of the To Do List application as working software. This application must run as a web and mobile application.
@@ -32,17 +31,21 @@
 ### In Scope: ##
 ##### The following functionalites must be implemented for this application based on the requirement spesifications: ####
 1. Application must be deployed in Docker
-2. Application must be ported to Cordova to run as a mobile application
-3. Adding of items to the To Do list application
-4. Editing existing information 
-5. Deleting existing or new items added on the To Do List application
-6. Application must be hosted so that multiple users can view it
-7. Application's back end must be managed on Kubernetes to ensure self healing, should any services break and scalability for future feature implementations. 
+2. Application must be viewable by multiple users
+3. Items should persist on the To Do List application after a page refresh
+4. To do items should not be left empty
+5. Adding of items to the To Do list application
+6. Editing existing information 
+7. Deleting existing or new items added on the To Do List application
 
 ### Out of Scope: ###
 - Penetration Testing
 - Functionality - Date at which items must be completed, duplicate items.
-- UI - cosmetic enhancements
+- UI: cosmetic enhancements
+
+### Future Features: ###
+1. Application's back end must be managed on Kubernetes to ensure the appliation is self healing, should any services break and scalability for future feature implementations. 
+2. Application must be ported to Cordova to run as a mobile application.
 
 ### Testing Types: ###
  - Unit, Functional, API: Postman if Restful API, Regression, Load Testing: JMeter or NEOLoad, Usability and Smoke Tests
