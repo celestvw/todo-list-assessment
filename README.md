@@ -50,7 +50,7 @@
 
 ## Assessment answers:
 1. [Test plan for task 1](https://github.com/celestvw/todo-list-assessment/blob/master/Tests/TestPlan.md)
-2. [Bug report for task 2](https://github.com/celestvw/todo-list-assessment/blob/master/Tests/Defects.md)
-3. [Test case for task 3](https://github.com/celestvw/todo-list-assessment/blob/master/Tests/Bugs.md)
+2. [Bug report for task 2](https://github.com/celestvw/todo-list-assessment/blob/master/Tests/Bugs.md)
+3. [Test case for task 3](https://github.com/celestvw/todo-list-assessment/blob/master/Tests/8th%20Requirement.md)
 4. [Test case for task 4](https://github.com/celestvw/todo-list-assessment/blob/master/Tests/9th%20Requirements.md)
 
