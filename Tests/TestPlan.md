@@ -44,8 +44,8 @@
 - UI: cosmetic enhancements
 
 ### Future Features: ###
-1. Application's back end must be managed on Kubernetes to ensure the appliation is self healing, should any services break and scalability for future feature implementations. 
-2. Application must be ported to Cordova to run as a mobile application.
+1. Manage the applicaion on Kubernetes 
+2. Port application to Cordova for it to run as a mobile application
 
 ### Testing Types: ###
  - Unit, Functional, API: Postman if Restful API, Regression, Load Testing: JMeter or NEOLoad, Usability and Smoke Tests
