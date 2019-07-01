@@ -1,31 +1,31 @@
 # Test Cases for the To Do List Application #
 ### Test case no 1: ###
 #### Add Items ####
-- GIVEN the user has navigated to [URL]
+- GIVEN the user has navigated to ${URL}
 - WHEN the user clicks in the empty field 'Create new todo item' to add an item with a valid value and clicks the 'submit' button
 - THEN the item will persist on the qe to do list
 
 ### Test Case no 2: ###
 #### Edit Items ####
-- GIVEN the user has navigated to [URL]
+- GIVEN the user has navigated to ${URL}
 - WHEN the user enters a new value to an existing item on the list and clicks the 'update' button
 - THEN the updated value should persist on the qe to do list
 
 ### Test case no 3: ###
 #### Delete Items ####
-- GIVEN the user has navigated to [URL]
+- GIVEN the user has navigated to ${URL}
 - WHEN the user clicks on the 'x' button of an existing item on the qe to do list
 - THEN the item is deleted/removed from the list
 
 ### Test case no 4: ###
 #### Empty field ####
-- GIVEN the user has navigated to [URL]
+- GIVEN the user has navigated to ${URL}
 - WHEN the user clicks on the empty field on an existing item and enters a null value (leave the field blank) and clicks the 'update' button
 - THEN the existing value of the item should persist
 
 ### Test case no 5: ###
 #### Refresh Application ####
-- GIVEN the user has navigated to [URL]
+- GIVEN the user has navigated to ${URL}
 - WHEN the user clicks in the empty field 'Create new todo item' to add an item with a valid value and clicks the 'submit' button and clicks F5 to refresh the page
 - THEN the item will persist on the qe to do list
 
