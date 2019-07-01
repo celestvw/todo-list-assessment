@@ -15,5 +15,5 @@
 - Implement a field validation check in the application's code base
 - Create a pop up message for the user stating that the field cannot be left empty when updating items
 
-[Screenshot: Defect 1.PNG](https://github.com/celestvw/todo-list-assessment/blob/master/Tests/Defect%201.PNG)
+[Screenshot: Defect 1.PNG](https://github.com/celestvw/todo-list-assessment/blob/master/Tests/Bug%201.PNG)
 
